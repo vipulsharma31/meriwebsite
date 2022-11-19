@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Century Gothic;
+}
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+}
+header {
+    padding: 10px;
+    background:linear-gradient(to right, #21a2dad2 , #980be4c7);
+}
+nav {
+    background:linear-gradient(to bottom, #11101d , #2a2845);
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    float:left;
+    color: white;
+    transition: 0.5s;
+}
+.donatebtn{
+    width: 100px;
+    float: right;
+    background: white;
+    color: #000;
+    border-radius: 50px;
+    margin: 10px;
+    padding:10px;
+}
+.donatebtn:hover{
+    color:white;
+    background: #11101d;
+}
+nav a:hover{
+    color:#000;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin:10px;
+    
+}
+main {
+    background-color: white;
+    text-align: center;
+}
+h2 {
+    padding: 10px;
+}
+section:nth-child(even) {
+    background: linear-gradient(to bottom,rgb(213, 212, 212),rgb(237, 234, 234));
+}
+section {
+    min-height: 50vh;
+}
+.ytv{
+    padding: 10px;
+}
+.ytv{
+    height: 30vh;
+    width: 50vh;
+    border-radius: 30px;
+}
+img {
+    padding: 10px;
+}
+section h5 {
+    margin: 50px;
+    padding: 50px;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.vipul{
+    width: 150px;
+    border-radius: 100px;
+}
+.wtsap{
+    float: right;
+    font-size: 20px;
+    color:rgb(11, 245, 46);
+}
+#yt{
+    color:red;
+}
+#wp{
+    color:rgb(6, 135, 25);
+}
+#ig{
+    color:rgb(239, 71, 202);
+}
+.imgs{
+    border-radius:30px;
+    border:1px solid #000;
+    margin:10px;
+    padding:1px;
+}
